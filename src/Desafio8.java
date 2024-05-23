@@ -15,7 +15,7 @@ public class Desafio8 {
   }
 
   /*
-   * outra forma
+  outra forma
    * int resultado = numeros.stream()
    * .mapToInt(Integer::intValue)
    * .sum();
