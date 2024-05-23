@@ -9,7 +9,10 @@ public class Desafio5 {
 
     double media = numeros.stream()
         .filter(n -> n > 5)
+        // convertendo integer pra double
         .mapToDouble(Integer::doubleValue)
+        // o average calcula a média do double
+        // o orElse retorna 0.0 ao invés de null
         .average().orElse(0.0);
     System.out.println(media);
   }
